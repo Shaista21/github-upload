@@ -1,0 +1,78 @@
+@media screen and (max-width : 767px) {
+
+    .col-3 {
+
+        width: 100%;
+
+        float: none;
+
+        padding: 15px 0;
+
+    }
+
+}
+
+body{
+    font-family: "Arial";
+}
+
+.container {
+  margin: 70px;
+  border: 1px solid #FFDD3C;
+}
+
+.col-3{
+    border-right-width:35px ;
+    border-right-color: #FFDD3C;
+    border-right-style: solid;
+}
+.ribbon-wrapper {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+  .ribbon {
+    font: bold 15px sans-serif;
+    color: #333;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 15px;
+    left: -30px;
+    width: 120px;
+    background-color: #FFDD3C;
+    color: #fff;
+
+  }
+
+
+
+h5{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.outer {
+            width: 200px;
+            margin-top: 20px;
+            border: 1px solid #f7f7f7;
+
+        }
+
+.inner {
+            width: 200px;
+            height: auto;
+            margin-top: 15px;
+            text-align: center;
+            background: #f4fafb;
+        }
+
